@@ -1,0 +1,42 @@
+{
+  "name": "electron-root-path",
+  "version": "1.0.0",
+  "description": "Get the root path of an Electron Application",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "cross-env NODE_ENV=development eslint --cache --format=pretty --ext .js .",
+    "lint-fix": "npm --silent lint --fix; exit 0",
+    "postlint-fix": "prettier --ignore-path .eslintignore --single-quote --write '**/*.*{js,json}'"
+  },
+  "author": "Ganesh Rathinavel",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^3.5.0",
+    "eslint-formatter-pretty": "^2.1.0",
+    "eslint-plugin-compat": "^2.6.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "prettier": "^1.15.3",
+    "prettier-eslint": "^8.8.2"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "root",
+    "electron",
+    "path"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshrvel/npm-electron-root-path.git"
+  },
+  "homepage": "https://github.com/ganeshrvel/npm-electron-root-path",
+  "peerDependencies": {
+    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0"
+  },
+  "dependencies": {}
+}
