@@ -1,13 +1,15 @@
 {
   "name": "electron-root-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the root path of an Electron Application",
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run lint",
     "lint": "cross-env NODE_ENV=development eslint --cache --format=pretty --ext .js .",
     "lint-fix": "npm --silent lint --fix; exit 0",
-    "postlint-fix": "prettier --ignore-path .eslintignore --single-quote --write '**/*.*{js,json}'"
+    "postlint-fix": "prettier --ignore-path .eslintignore --single-quote --write '**/*.*{js,json}'",
+    "login": "npm login",
+    "publish": "npm publish"
   },
   "author": "Ganesh Rathinavel",
   "license": "MIT",
