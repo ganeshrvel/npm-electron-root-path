@@ -80,4 +80,4 @@ Please feel free to contact me at ganeshrvel@outlook.com
 ### License
 electron-root-path | Get the root path of an Electron Application is released under [MIT License](https://github.com/ganeshrvel/npm-electron-root-path/blob/master/LICENSE "MIT License").
 
-Copyright © 2018 - 2019 Ganesh Rathinavel
+Copyright © 2018 - Present Ganesh Rathinavel
