@@ -74,8 +74,7 @@ Please feel free to contact me at ganeshrvel@outlook.com
 ### More repos
 - [Electron React Redux Advanced Boilerplate](https://github.com/ganeshrvel/electron-react-redux-advanced-boilerplate "Electron React Redux Advanced Boilerplate")
 - [OpenMTP  - Advanced Android File Transfer Application for macOS](https://github.com/ganeshrvel/openmtp "OpenMTP  - Advanced Android File Transfer Application for macOS")
-
-
+- [Tutorial Series by Ganesh Rathinavel](https://github.com/ganeshrvel/tutorial-series-ganesh-rathinavel "Tutorial Series by Ganesh Rathinavel")
 
 ### License
 electron-root-path | Get the root path of an Electron Application is released under [MIT License](https://github.com/ganeshrvel/npm-electron-root-path/blob/master/LICENSE "MIT License").
