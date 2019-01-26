@@ -38,8 +38,9 @@ const rootPath = require('electron-root-path').rootPath;
 // read a file in the root
 const location = path.join(rootPath, 'package.json');
 const pkgInfo = fs.readFileSync(location, { encoding: 'utf8' });
-
 ```
+
+- *location*  variable will point to the APP_PACKAGE_NAME.app directory on packaging the app.
 
 ## Building from Source
 
