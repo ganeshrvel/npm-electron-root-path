@@ -1,4 +1,4 @@
-# electron-root-path
+# npm: electron-root-path
 
 - Author: [Ganesh Rathinavel](https://www.linkedin.com/in/ganeshrvel "Ganesh Rathinavel")
 - License: [MIT](https://github.com/ganeshrvel/openmtp/blob/master/LICENSE "MIT")
@@ -72,7 +72,7 @@ Paypal me: [paypal.me/ganeshrvel](https://paypal.me/ganeshrvel "paypal.me/ganesh
 Please feel free to contact me at ganeshrvel@outlook.com
 
 ### More repos
-- [Electron-React-Redux Advanced Boilerplate](https://github.com/ganeshrvel/electron-react-redux-advanced-boilerplate "Electron-React-Redux advanced boilerplate")
+- [Electron React Redux Advanced Boilerplate](https://github.com/ganeshrvel/electron-react-redux-advanced-boilerplate "Electron React Redux Advanced Boilerplate")
 - [OpenMTP  - Advanced Android File Transfer Application for macOS](https://github.com/ganeshrvel/openmtp "OpenMTP  - Advanced Android File Transfer Application for macOS")
 
 
