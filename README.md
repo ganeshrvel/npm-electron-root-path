@@ -40,7 +40,7 @@ const location = path.join(rootPath, 'package.json');
 const pkgInfo = fs.readFileSync(location, { encoding: 'utf8' });
 ```
 
-- *location*  variable will point to the APP_PACKAGE_NAME.app directory on packaging the app.
+- The 'location' variable will point to <APP_PACKAGE_NAME>.app directory after packaging the app.
 
 ## Building from Source
 
