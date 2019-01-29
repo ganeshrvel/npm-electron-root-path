@@ -13,7 +13,7 @@
 
 Finding the root path of an electron app can be tricky. I have written a npm package to deal with this.
 
-Initially, I'd created **electron-root-path** package for [OpenMTP  - Advanced Android File Transfer Application for macOS](https://github.com/ganeshrvel/openmtp "OpenMTP  - Advanced Android File Transfer Application for macOS"). It works fine with [Electron-React-Redux Advanced Boilerplate](https://github.com/ganeshrvel/electron-react-redux-advanced-boilerplate "Electron-React-Redux advanced boilerplate") and [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate "electron-react-boilerplate")
+Initially, I'd created **electron-root-path** package for [OpenMTP  - Advanced Android File Transfer Application for macOS](https://github.com/ganeshrvel/openmtp "OpenMTP  - Advanced Android File Transfer Application for macOS"). It works fine with [Electron React Redux Advanced Boilerplate](https://github.com/ganeshrvel/electron-react-redux-advanced-boilerplate "Electron React Redux advanced boilerplate") and [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate "electron-react-boilerplate")
 
 ## Installation
 
@@ -40,7 +40,21 @@ const location = path.join(rootPath, 'package.json');
 const pkgInfo = fs.readFileSync(location, { encoding: 'utf8' });
 ```
 
-- The 'location' variable will point to <APP_PACKAGE_NAME>.app directory after packaging the app.
+- After packaging the app, the *rootPath* will point to the absolute directory path of <APP_PACKAGE_NAME>.app
+
+```javascript
+// eg: /Applications/AppName.app
+```
+- Handle the packaged condition using
+
+```javascript
+const isProd = process.env.NODE_ENV === 'production';
+
+// or
+
+const isPackaged = process.mainModule.filename.indexOf('app.asar') !== -1;
+```
+
 
 ## Building from Source
 
