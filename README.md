@@ -11,7 +11,7 @@
 
 ##### Get the root path of an Electron Application.
 
-Finding the root path of an electron app can be tricky. I have written a npm package to deal with this.
+Finding the root path of an electron app can be tricky, this npm package solves this issue. Follow further instructions to implement the same inside your app.
 
 Initially, I'd created **electron-root-path** package for [OpenMTP  - Advanced Android File Transfer Application for macOS](https://github.com/ganeshrvel/openmtp "OpenMTP  - Advanced Android File Transfer Application for macOS"). It works fine with [Electron React Redux Advanced Boilerplate](https://github.com/ganeshrvel/electron-react-redux-advanced-boilerplate "Electron React Redux advanced boilerplate") and [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate "electron-react-boilerplate")
 
