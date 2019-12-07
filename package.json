@@ -1,6 +1,6 @@
 {
   "name": "electron-root-path",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Get the root path of an Electron Application",
   "main": "lib/index.js",
   "scripts": {
