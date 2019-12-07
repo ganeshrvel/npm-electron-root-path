@@ -31,7 +31,7 @@ $ yarn add electron-root-path
 // Import ES6 way
 import { rootPath } from 'electron-root-path';
 
-// Import ES2015 way
+// Import ES5 way
 const rootPath = require('electron-root-path').rootPath;
 
 // e.g:
@@ -45,14 +45,16 @@ const pkgInfo = fs.readFileSync(location, { encoding: 'utf8' });
 ```javascript
 // eg: /Applications/AppName.app
 ```
-- Handle the packaged condition using
+- Handle the packaged condition if required using:
 
 ```javascript
 const isProd = process.env.NODE_ENV === 'production';
 
 // or
 
-const isPackaged = process.mainModule.filename.indexOf('app.asar') !== -1;
+// npm install electron-is-packaged
+
+const isPackaged = require('electron-is-packaged').isPackaged;
 ```
 
 

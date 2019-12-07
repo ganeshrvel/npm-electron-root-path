@@ -1,6 +1,6 @@
 {
   "name": "electron-root-path",
-  "version": "1.0.12",
+  "version": "1.0.15",
   "description": "Get the root path of an Electron Application",
   "main": "lib/index.js",
   "scripts": {
@@ -40,5 +40,7 @@
   "peerDependencies": {
     "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "electron-is-packaged": "^1.0.0"
+  }
 }
