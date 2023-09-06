@@ -14,15 +14,15 @@
   "author": "Ganesh Rathinavel",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.12.1",
-    "eslint-config-prettier": "^3.5.0",
-    "eslint-formatter-pretty": "^2.1.0",
-    "eslint-plugin-compat": "^2.6.3",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-promise": "^4.0.1",
-    "prettier": "^1.15.3",
-    "prettier-eslint": "^8.8.2"
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-formatter-pretty": "^5.0.0",
+    "eslint-plugin-compat": "^4.2.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.0.3",
+    "prettier-eslint": "^15.0.1"
   },
   "files": [
     "lib"
@@ -38,9 +38,9 @@
   },
   "homepage": "https://github.com/ganeshrvel/npm-electron-root-path",
   "peerDependencies": {
-    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0"
+    "eslint": "^6.0.0 || ^7.0.0 || ^8.0.0"
   },
   "dependencies": {
-    "electron-is-packaged": "^1.0.2"
+    "electron-is-packaged": "git+https://github.com/dmytroshch/npm-electron-is-packaged.git#update-deps"
   }
 }
